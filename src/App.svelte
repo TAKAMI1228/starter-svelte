@@ -1,5 +1,6 @@
 <script>
 	export let name;
+	export let test;
 </script>
 
 <main>
