@@ -1,18 +1,10 @@
-<script>
-	export let name;
-	export let test;
+<script lang="ts">
+    import Calendar from "./Calendar.svelte";
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<h2>{test}</h2>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-	<div>
-		<input type="number">
-	</div>
-	<div>
-		<input type="number">
-	</div>
+	<h1>Calendar??</h1>
+	<Calendar />
 </main>
 
 <style>
