@@ -6,17 +6,13 @@
   div {
     flex: 1;
     border: 1px solid #ccc;
-    border-top-width: 0;
-  }
-  div:nth-child(n + 2) {
-    border-left-width: 0;
   }
 </style>
 
 <div>
   {#if date.getDate() === 1}
-    {date.getMonth() + 1}/{date.getDate()}
+    <a href="#">{date.getMonth() + 1}/{date.getDate()}</a>
   {:else}
-    {date.getDate()}
+    <a href="#">{date.getDate()}</a>
   {/if}
 </div>

@@ -1,10 +1,12 @@
 <script lang="ts">
     import Calendar from "./Calendar.svelte";
+    import MyCalendar from "./MyCalendar.svelte";
 </script>
 
 <main>
 	<h1>Calendar??</h1>
 	<Calendar />
+	<MyCalendar />
 </main>
 
 <style>

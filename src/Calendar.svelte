@@ -22,6 +22,7 @@
   <style>
     h1 {
       margin: 0;
+      font-family: 'Comic Sans MS', cursive;
     }
     .calendar {
       display: flex;
@@ -31,6 +32,7 @@
     }
     .week-header {
       display: flex;
+      font-family: 'Comic Sans MS', cursive;
     }
     .dow {
       flex: 1;
@@ -43,6 +45,7 @@
       display: flex;
       flex-direction: column;
       flex: 1;
+      font-family: 'Comic Sans MS', cursive;
     }
   </style>
   
